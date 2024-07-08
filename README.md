@@ -37,5 +37,8 @@ Cette fois ci avec un post, j'envoye les headers:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/437a2a5b-344a-4958-9608-39a6a19ed61f)
 Et en cliquant sur Body je vais utilser les données que je dois envoyer:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/370e7e66-c6bd-4427-b788-1f0dd6c881bd)
-En cliquant sur send on aura:
+En cliquant sur send on aura un compte qui a été créer :
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/941c099e-9325-4182-8501-27ee455aee50)
+Pour resoudre l erreur qui apparait ci dessus  il faut ajouter une instruction dans AccountRestController et plus precisemment dans save
+
 
