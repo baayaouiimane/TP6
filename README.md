@@ -27,5 +27,7 @@ Ensuite on va ajouter un compte et pour effectuer cette tache il faut ajouter de
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/70d649a7-5a49-46fe-98d7-5de68c609c54)
 Et en faisant la petite modification du type double afin de l'écrire de la sorte:Double dans BankAccount
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/2175f2eb-88ed-4370-bb97-abe91344da74)
+Et avant de faire le test il faut apporter des modifications a AccountRestController:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/af975847-0c39-4949-83a8-f4ca09cb2120)
 
 
