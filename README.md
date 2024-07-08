@@ -29,9 +29,13 @@ Et en faisant la petite modification du type double afin de l'écrire de la sort
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/2175f2eb-88ed-4370-bb97-abe91344da74)
 Et avant de faire le test il faut apporter des modifications a AccountRestController:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/af975847-0c39-4949-83a8-f4ca09cb2120)
-On va tester par la suite:
+On va tester par la suite  les méthodes dans postMan:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/a0e37c7d-9e1d-4d36-a1b0-59a58edd473d)
 Voila un deuxiéme test afin de consulter juste un compte souhaité:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/6571e3bb-baa3-4016-9131-8fbbc8a651d0)
-
+Cette fois ci avec un post, j'envoye les headers:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/437a2a5b-344a-4958-9608-39a6a19ed61f)
+Et en cliquant sur Body je vais utilser les données que je dois envoyer:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/370e7e66-c6bd-4427-b788-1f0dd6c881bd)
+En cliquant sur send on aura:
 
