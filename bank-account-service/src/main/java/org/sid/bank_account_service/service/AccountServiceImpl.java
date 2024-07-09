@@ -1,6 +1,5 @@
 package org.sid.bank_account_service.service;
 
-import jakarta.persistence.Entity;
 import org.sid.bank_account_service.dto.BankAccountRequestDTO;
 import org.sid.bank_account_service.dto.BankAccountResponseDTO;
 import org.sid.bank_account_service.entities.BankAccount;
@@ -26,6 +25,21 @@ public class AccountServiceImpl implements AccountService {
     public BankAccountResponseDTO addAccount(BankAccountRequestDTO bankAccountDTO){
         BankAccount bankAccount= BankAccount.builder()
                 .id(UUID.randomUUID().toString())
+                .createdAt(new Date())
+                .balance(bankAccountDTO.getBalance())
+                .type(bankAccountDTO.getType())
+                .currency(bankAccountDTO.getCurrency())
+                .build();
+        BankAccount saveBankAccount= bankAccountRepository .save(bankAccount);
+        BankAccountResponseDTO  bankAccountResponseDTO=accountMapper.fromBankAccount(saveBankAccount);
+
+
+        return bankAccountResponseDTO ;
+    }
+    @Override
+    public BankAccountResponseDTO updateAcount(String id, BankAccountRequestDTO bankAccountDTO){
+        BankAccount bankAccount= BankAccount.builder()
+                .id(id)
                 .createdAt(new Date())
                 .balance(bankAccountDTO.getBalance())
                 .type(bankAccountDTO.getType())
