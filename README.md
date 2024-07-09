@@ -120,8 +120,9 @@ On remarque d'apres le résultat ci dessus on a null car il n'a pas pu mapper et
 Maintenant on va voir le cas des exceptions si je demande un compte qui n'existe pas:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/52017ee5-570e-4c9b-9352-626d213541c6)
 Et donc pour récuperer le message d'exception il faut ajouter un handler d'exception, tout simplement il faut creer un package dont son nom est exceptions et dans ce dernier je vais créer une classe CustomDataFetcherExceptionResolver
-![image](https://github.com/baayaouiimane/TP6/assets/167249908/14141f50-20b4-4acd-898a-2438ac245a49)
-![image](https://github.com/baayaouiimane/TP6/assets/167249908/c215ac14-bee1-487a-96b0-9b5056d00b7f)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/0e765457-17a8-47a1-888e-4e08eb1d5f62)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/f416dba5-52e1-4866-8c2f-a0d6cb7698c9)
+Et on va obtenir ce résultat:
 
 
 
