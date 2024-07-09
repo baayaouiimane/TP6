@@ -98,8 +98,9 @@ dans lequel on va créer une classe AccountMapper:
 Et aussi dans AccountServiceImpl on effectuer des modifications:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/ddf0bf77-cb20-4e4f-9485-0709250d350b)
 
-
-
+Deuxième Partie :
+- Micro-SERVICE wvec web service GRAPHQL :
+ 
 
 
 
