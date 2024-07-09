@@ -99,7 +99,13 @@ Et aussi dans AccountServiceImpl on effectuer des modifications:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/ddf0bf77-cb20-4e4f-9485-0709250d350b)
 
 Deuxième Partie :
-- Micro-SERVICE wvec web service GRAPHQL :
+Cette fois ci on va utiliser un Micro-SERVICE avec web service GRAPHQL mais tout d'abords il faut créer a l'intérieur du dossier graphql un fichier schema.graphqls :
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/3733abe2-3c94-4ac3-9475-f0077185f064)
+Ensuite on va savoir comment implémenter le service dans le dossier web tout d'abords il faut construire une classe:BankAccountGraphQLController
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/2be89d5d-61ed-4f17-9189-9cb3641c3502)
+Faisant un test mais avant ca il faut ajouter dans le fichier application.properties le contenu ci dessous  pour que graghql puisse fonctionner:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/89b017d2-2782-4082-bcc4-0705f2d1a6d7)
+
  
 
 
