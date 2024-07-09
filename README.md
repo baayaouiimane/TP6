@@ -119,10 +119,32 @@ On remarque d'apres le résultat ci dessus on a null car il n'a pas pu mapper et
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/0770a8be-21c9-43df-be77-7cfe1d8f40ab)
 Maintenant on va voir le cas des exceptions si je demande un compte qui n'existe pas:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/52017ee5-570e-4c9b-9352-626d213541c6)
-Et donc pour récuperer le message d'exception il faut ajouter un handler d'exception, tout simplement il faut creer un package dont son nom est exceptions et dans ce dernier je vais créer une classe CustomDataFetcherExceptionResolver
+Et donc pour récuperer le message d'exception il faut ajouter un handler d'exception, tout simplement il faut créer un package dont son nom est exceptions et dans ce dernier je vais créer une classe CustomDataFetcherExceptionResolver
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/0e765457-17a8-47a1-888e-4e08eb1d5f62)
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/f416dba5-52e1-4866-8c2f-a0d6cb7698c9)
 Et on va obtenir ce résultat:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/ad6e70b2-bea1-478a-a6eb-0eb596f4b358)
+Supposons maintenant que je veux créer une méthode qui permet de  jeter un compte c'est a dire dans le controlleur y aura la création d'une méthode qui va retourner un compte(c'est la derniere)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/8b23e9f7-7287-4ddb-98ea-7e7179c09cc9)
+Il va falloir déclarer la méthode dans le schéma:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/fb794bee-2205-4e11-bff2-0c0552e94fb3)
+Et on ajoute par la suite la classe BankAccountDTO dans BankAccountGraphQLController
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/c4c049ba-5794-43fe-8851-33c35013bf1b)
+On recharge le schéma et si on souhaite envoyer une requete avec post dans le corps contient mutation:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/2f66cb16-980a-4ced-a689-2e72e7f2d9d8)
+Le compte a ete crée avec succés:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/129f8b4e-6106-4469-bf09-ea667e69bcfc)
+Ou bien on peut faire une autre option afin de saisir les données pour le nouveau compte:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/b5b693cc-6dbe-42b7-a527-3fef843fbf32)
+Cette fois ci on va faire update dans Bank AccountGraphQLController:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/6479a542-a544-4381-91d8-2ac4a7a7a4a1)
+Et dans la classe AccountService:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/2a2d008d-b79f-4549-bb92-7611dde5f8a4)
+La méthode updateAccount va falloir la déclarer dans shema .graphqls:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/19007793-c9ce-4d60-abaf-a97ab6a10a61)
+Et par cette occasion on va ajouter une méthode qui va supprimer un compte dans BankAccountGraphQLController:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/616250a4-54b4-4ed1-ad76-c46e1085411c)
+Et cett derniere doit etre ajoutée dans shema .graphqls:
 
 
 
