@@ -77,10 +77,22 @@ Ensuite on va ajouter des annotations dans l'interface bankAccountRepository :
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/d5fc2df1-893f-4c51-a8ce-53718dc593bb)
 Cette fois ci si vous souhaitez faire la recherche il suffit de taper cet url qui apparait ci dessous:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/af2962bd-e527-4890-89fa-e8b2384fdc1c)
-Jusqu'a présent on a pas respecter les normes et pour etre dans les normes, il faut utiliser les DTO et la couche service et pour cela on va effectuer la création de la couche service:donc on va creer un package nommee service et a l'intérieur de ce dernier y'aura la création d'une interface :AccountService
-![image](https://github.com/baayaouiimane/TP6/assets/167249908/1dd4c969-795f-4161-b5e8-ddc59a8411c0)
-Ensuite on va créer un package nommée dto dans lequel on va créer les classes BankAccountResponseDTO et BankAccountRequestDTO:
+Jusqu'a présent on a pas respecter les normes et pour etre dans les normes, il faut utiliser les DTO et la couche service et pour cela on va effectuer la création de la couche service:donc on va créer un package nommée service et a l'intérieur de ce dernier y'aura la création d'une interface :AccountService
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/9f77cf15-2cf9-4ff8-8bf3-1f6f98b599be)
+Ensuite on va créer un package nommée dto dans lequel on va créer les classes BankAccountResponseDTO et BankAccountRequestDTO:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/1f92efb9-f0a8-42ef-948d-0a8ea1712c1a)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/75418aa1-7ecc-4b05-a35e-8d3fc2cb31a9)
+Ensuite on va faire une implémentation de l'interface AccountService:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/20cafa06-68cd-467e-bd77-bee5420a91a8)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/9410a64a-3ac7-4daf-9cd4-fbe9f9cd274c)
+Et ensuite on va faire un petit changement dans AccountRestController:
+Comme l'ajout de cette déclaration:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/2dc1d6a9-c685-4a3c-898f-5f6d7a0898c0)
+Ainsi que des petites modifications au niveau de la méthode save:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/7a83a408-b192-4e50-90f3-ef2aea93ab99)
+
+
+
 
 
 
