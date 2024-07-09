@@ -90,7 +90,13 @@ Comme l'ajout de cette déclaration:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/2dc1d6a9-c685-4a3c-898f-5f6d7a0898c0)
 Ainsi que des petites modifications au niveau de la méthode save:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/7a83a408-b192-4e50-90f3-ef2aea93ab99)
-
+Et le dernier point qui faut respecter les normes c il faut ajouter un package qu porte comme nom:mappers
+dans lequel on va créer une classe AccountMapper:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/19f375c3-c255-4e8f-9398-ed606c2c0a86)
+ Et pour utiliser cette méthode dans le controlleur:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/bb03c4cd-a44e-4ca5-bfac-ca8353e2767f)
+Et aussi dans AccountServiceImpl on effectuer des modifications:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/ddf0bf77-cb20-4e4f-9485-0709250d350b)
 
 
 
