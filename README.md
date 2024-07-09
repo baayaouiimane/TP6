@@ -72,6 +72,15 @@ Spring datarest nous donne la possibilité d'utiliser les projections c'est par 
 En ajoutant cette instruction dans l'interface AccountProjection:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/abb46577-801a-4f8a-ae25-5b938c92288c)
 On redémarre et on obtient le résultat ci dessous:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/5bbfb314-ef1e-4dad-ba82-1bc6bfb4ed7a)
+Ensuite on va ajouter des annotations dans l'interface bankAccountRepository :
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/d5fc2df1-893f-4c51-a8ce-53718dc593bb)
+Cette fois ci si vous souhaitez faire la recherche il suffit de taper cet url qui apparait ci dessous:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/af2962bd-e527-4890-89fa-e8b2384fdc1c)
+Jusqu'a présent on a pas respecter les normes et pour etre dans les normes, il faut utiliser les DTO et la couche service et pour cela on va effectuer la création de la couche service:donc on va creer un package nommee service et a l'intérieur de ce dernier y'aura la création d'une interface :AccountService
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/1dd4c969-795f-4161-b5e8-ddc59a8411c0)
+Ensuite on va créer un package nommée dto dans lequel on va créer les classes BankAccountResponseDTO et BankAccountRequestDTO:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/9f77cf15-2cf9-4ff8-8bf3-1f6f98b599be)
 
 
 
