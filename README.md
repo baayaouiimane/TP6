@@ -143,8 +143,9 @@ Et dans la classe AccountService:
 La méthode updateAccount va falloir la déclarer dans shema .graphqls:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/19007793-c9ce-4d60-abaf-a97ab6a10a61)
 Et par cette occasion on va ajouter une méthode qui va supprimer un compte dans BankAccountGraphQLController:
-![image](https://github.com/baayaouiimane/TP6/assets/167249908/616250a4-54b4-4ed1-ad76-c46e1085411c)
-Et cett derniere doit etre ajoutée dans shema .graphqls:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/2599e41a-bfff-467b-bece-b07722893738)
+Et cette derniere doit etre ajoutée dans shema .graphqls:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/e827faa3-119e-4870-aa78-6c9677429445)
 
 
 
