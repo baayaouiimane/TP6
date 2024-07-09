@@ -99,7 +99,7 @@ Et aussi dans AccountServiceImpl on effectuer des modifications:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/ddf0bf77-cb20-4e4f-9485-0709250d350b)
 
 Deuxième Partie :
-Cette fois ci on va utiliser un Micro-SERVICE avec web service GRAPHQL mais tout d'abords il faut créer a l'intérieur du dossier graphql un fichier schema.graphqls :
+Cette fois ci on va utiliser un Micro-SERVICE avec web service GRAPHQL mais tout d'abords il faut créer a l'intérieur du dossier graphql un fichier schéma.graphqls :
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/3733abe2-3c94-4ac3-9475-f0077185f064)
 Ensuite on va savoir comment implémenter le service dans le dossier web tout d'abords il faut construire une classe:BankAccountGraphQLController
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/c6165341-eb4f-4220-be27-29762ca0bda0)
@@ -107,6 +107,13 @@ Faisant un test mais avant ca il faut ajouter dans le fichier application.proper
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/89b017d2-2782-4082-bcc4-0705f2d1a6d7)
 En visitant l'url qui apparait ci dessous on aura l'affichage suivant:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/58fc4da8-fe06-43b6-9662-790d195999c1)
+Supposons que je veux récuperer un compte  on va apporter a la classe BankAccountGraphQLController des modifications:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/6aaede04-0fb8-47ca-bb50-5f1bf4c25a5b)
+Et pour pouvoir utiliser la méthode qui apparait ci dessus il va falloir faire ce travail dans schema.graphqls:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/b5b06419-9d83-4913-bcb9-5e060ca7bab1)
+Et on teste:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/fb60cea5-91ed-4a30-8df0-70210b269884)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/37e14a91-f976-46f8-a0a8-9f35948e1706)
 
 
  
