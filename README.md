@@ -150,7 +150,7 @@ Et voila la mise a jour de mes données:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/00f0cc34-0fca-4d6f-861d-b226effdb999)
 Cette fois ci on va tester la suppression:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/c3dbbc87-3258-4728-8c31-425d9eb34e2d)
-L4id ne figure plus voici l'argument :
+L'id ne figure plus voici l'argument :
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/18064791-ed2f-4878-92f6-95f4d852bd8d)
 Ensuite on va passer aux relations :
 On crée une entité Customer :
@@ -165,8 +165,14 @@ Et en visiatant la base de donnée on trouve que:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/344d75cf-0182-4618-ad9d-e26b397fbe96)
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/447d82ff-aead-4cf0-9830-80f1db0ef4df)
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/cd88e024-36bb-4b35-b529-019126ea136c)
-Ensuite on va ajouter une methode permettant de consulter un customer:
-
+Ensuite on va ajouter une méthode permettant de consulter un customer:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/349ebfe3-d461-4061-b619-70f2414f2c37)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/29d3ed2d-3cfe-4f5f-ab6d-9b8b8cbf5217)
+Testant d'abord:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/dcc6e79f-27df-4994-95c9-138d1ebc373d)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/f1a28ba7-e173-4d1c-bd9b-9050e51d16d0)
+En visiant l'url ci dessous on aura comme resultat:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/2469889b-ecac-4aab-869e-e510af218568)
 
 
 
