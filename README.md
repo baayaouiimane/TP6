@@ -111,9 +111,12 @@ Supposons que je veux récuperer un compte  on va apporter a la classe BankAccou
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/6aaede04-0fb8-47ca-bb50-5f1bf4c25a5b)
 Et pour pouvoir utiliser la méthode qui apparait ci dessus il va falloir faire ce travail dans schema.graphqls:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/b5b06419-9d83-4913-bcb9-5e060ca7bab1)
-Et on teste:
+Et on va faire un  test:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/fb60cea5-91ed-4a30-8df0-70210b269884)
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/37e14a91-f976-46f8-a0a8-9f35948e1706)
+On remarque d'apres le résultat ci dessus on a null car il n'a pas pu mapper et pour résoudre ce probleme voila la solution
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/ea24fe0e-3fdd-4919-87d0-f5cd1065cb84)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/0770a8be-21c9-43df-be77-7cfe1d8f40ab)
 
 
  
