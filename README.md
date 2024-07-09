@@ -57,6 +57,21 @@ En démarrant et ensuite en visitant le localhost:8081/bankAccounts on aura le r
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/64cf56ec-5481-4ec8-8690-ed338c4c37b7)
 Et en visitant:http://localhost:8081/api/bankAccounts
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/64679ea2-98cb-4471-aed7-85ed53af1d61)
+Cette fois en changeant l'url on aura le résultat ci dessous:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/93fd7ad6-6ce1-4862-aeb0-2b2b1ed6bb41)
+Cette fois ci on décide de créer une méthode on est redirigé vers BankAccountRepository:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/dfb93b30-da83-4372-9ada-978eaeab97c7)
+En visitant l'url qui apparait ci dessous on aura le résultat suivant:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/aa016c21-de3a-41ba-9662-3f4dd8feed7d)
+Cette fois ci en changeant l'url on aura le résultat suivant:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/a066a69c-9dc3-4efc-9f05-1cf1abea80b4)
+Spring datarest nous donne la possibilité d'utiliser les projections c'est par exemple quand je consulte un compte il me donne par défaut l'id il le masque et donc il suffit juste de creer une interface dont son nom est AccountProjection dans le package entities:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/b1555aa7-2e44-433c-bea4-66b8d2146be6)
+ En démarrant une autre fois on aura l'affichage suivant:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/2712f604-3e69-4b45-a598-88fd83e19a08)
+En ajoutant cette instruction dans l'interface AccountProjection:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/abb46577-801a-4f8a-ae25-5b938c92288c)
+On redémarre et on obtient le résultat ci dessous:
 
 
 
