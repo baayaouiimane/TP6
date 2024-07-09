@@ -143,18 +143,29 @@ Et dans la classe AccountService:
 La méthode updateAccount va falloir la déclarer dans shema .graphqls:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/19007793-c9ce-4d60-abaf-a97ab6a10a61)
 Et par cette occasion on va ajouter une méthode qui va supprimer un compte dans BankAccountGraphQLController:
-![image](https://github.com/baayaouiimane/TP6/assets/167249908/2599e41a-bfff-467b-bece-b07722893738)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/7a251a9c-89c0-4f2d-bbe7-88bcdbd73e62)
 Et cette derniere doit etre ajoutée dans shema .graphqls:
 ![image](https://github.com/baayaouiimane/TP6/assets/167249908/e827faa3-119e-4870-aa78-6c9677429445)
-
-
-
-
-
-
- 
-
-
+Et voila la mise a jour de mes données:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/00f0cc34-0fca-4d6f-861d-b226effdb999)
+Cette fois ci on va tester la suppression:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/c3dbbc87-3258-4728-8c31-425d9eb34e2d)
+L4id ne figure plus voici l'argument :
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/18064791-ed2f-4878-92f6-95f4d852bd8d)
+Ensuite on va passer aux relations :
+On crée une entité Customer :
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/601ae04a-8fd1-4de3-86cf-4147757b9cd4)
+Et on va modifier dans BankAccount:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/42993a82-f72d-406a-ada7-0a2a5ed6c14a)
+Ensuite on va creer une interface CustomerRepository pour gérer les customers:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/96cb7f8f-d4a7-4fd3-ac2f-ad6eba793e8f)
+Dans l'application je vais creer des comptes et des clients: 
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/f972db6a-bc1d-451d-b772-cdb833d701a0)
+Et en visiatant la base de donnée on trouve que:
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/344d75cf-0182-4618-ad9d-e26b397fbe96)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/447d82ff-aead-4cf0-9830-80f1db0ef4df)
+![image](https://github.com/baayaouiimane/TP6/assets/167249908/cd88e024-36bb-4b35-b529-019126ea136c)
+Ensuite on va ajouter une methode permettant de consulter un customer:
 
 
 
