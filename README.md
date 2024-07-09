@@ -1,4 +1,4 @@
-![image](https://github.com/baayaouiimane/TP6/assets/167249908/4383b527-502a-4aaf-8da5-86a5e1cba3ff)# TP6
+# TP6
 Première Partie : Développer un micro-service
    - MIcro Service avec Web Service RESTFUL :
 Donc on a commencé par choisir la deuxième option afin de créer le projet dont son nom est le suivant: bank-account-service  et par la suite on a ajouté les dépendances nécessaires pour le travail.
